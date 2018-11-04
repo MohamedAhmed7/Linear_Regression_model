@@ -6,5 +6,5 @@ and Comparing the results with the output from Statsmodel
 slope = (np.mean(x) * np.mean(y) - np.mean(x * y)) / (np.mean(x) * np.mean(x)  - np.mean(x ** 2))<br>
 intercept = np.mean(y) - slope * np.mean(x)
 # Results 
-![image](https://user-images.githubusercontent.com/19196061/47968418-64647980-e072-11e8-9d97-02b834a27d85.png)
+![image](https://user-images.githubusercontent.com/19196061/47970259-ddbc9600-e08b-11e8-9b0e-3d33be494f23.png)
 
