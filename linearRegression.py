@@ -9,7 +9,7 @@ data = pd.read_csv('Boston.csv')
 # just pick 2 parameters as x and y for linear regression
 # crim zn indus chas nox rm  age dis rad tax ptratio b lstat   medv
 
-x = np.array(data['crim'])
+x = np.array(data['medv'])
 y = np.array(data['rm'])
 
 n = np.size(x)
